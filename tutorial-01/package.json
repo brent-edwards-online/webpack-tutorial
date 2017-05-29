@@ -1,0 +1,26 @@
+{
+  "name": "tutorial-01",
+  "version": "1.0.0",
+  "description": "Webpack Tutorial",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Brent Edwards",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "file-loader": "^0.11.1",
+    "image-webpack-loader": "^3.3.1",
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.3.3",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.6.1"
+  }
+}
